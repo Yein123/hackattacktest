@@ -6,7 +6,7 @@ const Counter = () => {
     return (
         <div className="flex mx-auto space-x-8 items-center">
             <button 
-                onClick={() => setCount((prev) => prev + 1)}
+                onClick={() => setCount((prev) => prev + 2)}
                 className="bg-blue-700 text-white h-8 w-20 hover:bg-blue-500"
             > 
                 Increment
